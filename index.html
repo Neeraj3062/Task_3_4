@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+  
+</head>
+
+<body>
+    <div class="container">
+        <form class="center" onsubmit="login(event)">
+            <div class="header">
+                <img src="./assets/imgs/logo.png" alt="Logo" class="logo" />
+            </div>
+            <div class="inputElement">
+                <input type="text" placeholder="Username" class="inputText" />
+                <div id="username-error" class="error-message"></div>
+                <input type="password" placeholder="Password" class="inputText" />
+                <div id="password-error" class="error-message"></div>
+                <input type="submit" value="Login" class="inputButton" />
+                <div class="forgetPassword"><a href="">Forgot your Password?</a></div>
+            </div>
+        </form>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
